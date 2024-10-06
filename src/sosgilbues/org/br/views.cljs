@@ -25,7 +25,7 @@
 (defmethod routes/panels :team-panel [] [team-panel])
 
 (defn home-panel []
-  [:div.container [:h1 "Associação de Defesa Ambiental e Controle da Desertificação de Gilbues"]
+  [:div.container [:h1 "Associação de Defesa Ambiental e Controle da Desertificação de Gilbués"]
    [:img.img-fluid {:src "assets/banner.png"}]])
 
 (defmethod routes/panels :home-panel [] [home-panel])
