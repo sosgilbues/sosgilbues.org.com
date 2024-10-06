@@ -1,5 +1,4 @@
 /out/
-/resources/public/js/compiled/
 /target/
 /*-init.clj
 /*.log
@@ -15,3 +14,5 @@
 /.shadow-cljs/
 /package-lock.json
 /.idea/
+/resources/public/js/compiled/cljs-runtime/
+/resources/public/js/compiled/manifest.edn
