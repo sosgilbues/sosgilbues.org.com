@@ -53,7 +53,7 @@
                              [:p "Graduado em Geografia e Administração, especialista em Geografia Meio Ambiente e Sustentabilidade."]
                              [:p "Ambientalista há 22 anos, professor na rede estadual de ensino."]
                              [:p "moreirauabufpi@gmail.com"]])
-          (member-team-card "assets/members/jênerson.jpg" "Jênerson Gonçalves da Silva de Jesus" "Diretor de divulgação e comunicação"
+          (member-team-card "assets/members/jenerson.jpg" "Jênerson Gonçalves da Silva de Jesus" "Diretor de divulgação e comunicação"
                             [:<>
                              [:p "Zootecnista, Geógrafo, especialista em Geoprocessamento."]
                              [:p "Professor na rede estadual de ensino."]
