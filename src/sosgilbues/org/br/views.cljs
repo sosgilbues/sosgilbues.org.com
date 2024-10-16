@@ -48,7 +48,7 @@
                             [:<>
                              [:p "Sociólogo."]
                              [:p "dhoka_lustosa@hotmail.com"]])
-          (member-team-card "assets/members/marlos.jpeg" "Leandro Andrade Figueredo" "Diretor financeiro"
+          (member-team-card "assets/members/marlos.jpeg" "José Marlos Moreira de Souza" "Diretor financeiro"
                             [:<>
                              [:p "Graduado em Geografia e Administração, especialista em Geografia Meio Ambiente e Sustentabilidade."]
                              [:p "Ambientalista há 22 anos, professor na rede estadual de ensino."]
