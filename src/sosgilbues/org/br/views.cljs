@@ -67,26 +67,48 @@
 
 (defmethod routes/panels :team-panel [] [team-panel])
 
-(defn home-panel []
-      [:div.container.p-5
-       [:h2 "Associação de Defesa Ambiental e Controle da Desertificação de Gilbués"]
-       [:img.img-fluid {:src "assets/banner.png"}]
+(defn who-we-are []
+      [:<>
        [:h2 "Quem somos"]
        [:p "Somos a primeira instituição civil sem fins lucrativos de serviço voluntário, voltada para controle da
        desertificação no Município de Gilbués, Estado do Piauí. Fundada no ano de 2001, por professores, estudantes,
-       servidores públicos, intelectuais e ambientalistas."]
+       servidores públicos, intelectuais e ambientalistas."]])
+
+(defn what-we-do []
+      [:<>
        [:h2 "O que fazemos"]
        [:p "Buscamos por meio da difusão do conhecimento de políticas de controle e convivência com processo acelerado
        de degradação ambiental que atinge o município de Gilbués e adjacências. Nosso trabalho é voltado para educação
        ambiental e sustentabilidade, especialmente com o público jovem e famílias atingidas, através de grupos de
-       conversa, seminários e debates, de forma proativa e preventiva."]
+       conversa, seminários e debates, de forma proativa e preventiva."]])
+
+(defn what-we-defend []
+      [:<>
        [:h2 "O que defendemos"]
        [:ul
         [:li "Uso sustentável dos recursos hídricos"]
         [:li "Aplicação de práticas sustentáveis na agricultura"]
         [:li "Uso de manejo sustentável do solo"]
         [:li "Atividades menos ofensivas ao meio ambiente"]
-        [:li "Educação e pesquisa"]]
+        [:li "Educação e pesquisa"]]])
+
+(defn home-panel []
+      [:div.container.p-5
+       [:h2 "Associação de Defesa Ambiental e Controle da Desertificação de Gilbués"]
+       [:img.img-fluid {:src "assets/banner.png"}]
+
+       [:div.container
+        [:ul.nav.nav-tabs
+         [:li.nav-item
+          [:a.nav-link.active {:href "#"} "Quem Somos"]]
+         [:li.nav-item
+          [:a.nav-link {:href "#"} "O que fazemos"]]
+         [:li.nav-item
+          [:a.nav-link {:href "#"} "O que defendemos"]]]
+
+        [:div.row.container
+         (who-we-are)]]
+
        [:div.row {:style {:height "720px"}}
         [:iframe {:src             "https://www.youtube.com/embed/yvfo6zt9d_o?si=nILBaQDp2ZdGfhLy?rel=0"
                   :title           "YouTube video player"
