@@ -100,13 +100,6 @@
                   :frameborder     "0"
                   :allow           "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   :referrerpolicy  "strict-origin-when-cross-origin"
-                  :allowfullscreen true}]]
-       [:div.row.mt-2 {:style {:height "720px"}}
-        [:iframe {:src "https://www.youtube.com/embed/9RioCudwQqY?rel=0"
-                  :title "Piauí luta contra a desertificação de terras"
-                  :frameborder "0"
-                  :allow "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  :referrerpolicy "strict-origin-when-cross-origin"
                   :allowfullscreen true}]]])
 
 (defmethod routes/panels :home-panel [] [home-panel])
