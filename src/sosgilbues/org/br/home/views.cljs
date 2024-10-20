@@ -56,7 +56,8 @@
        (case @about-us-section-current-tab
          :who-we-are (who-we-are)
          :what-we-do (what-we-do)
-         :what-we-defend (what-we-defend))]])
+         :what-we-defend (what-we-defend)
+         :default (who-we-are))]])
 
    [:div.d-grid.gap-3.justify-content-center
     [:div.mx-auto
