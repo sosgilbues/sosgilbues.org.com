@@ -82,5 +82,5 @@
                 [:ul.dropdown-menu
                  [:li [:a.dropdown-item {:href "/team"} "Equipe"]]]]]]]
             (routes/panels @active-panel)
-            [:footer.container-fluid.p-4.bg-dark.sticky-bottom
+            [:footer.container-fluid.p-4.bg-dark
              [:div.container.text-white [:p "Nossa instituição é mantida por doações dos voluntários e associados."]]]]))

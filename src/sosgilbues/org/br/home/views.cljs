@@ -39,7 +39,7 @@
 
    (let [about-us-section-current-tab (re-frame/subscribe [::subs/about-us-section-current-tab])]
      [:div.container.mt-5.mb-5.d-flex.flex-column.align-items-center
-      [:ul.nav.nav-tabs
+      [:ul.nav.nav-tabs.justify-content-center
        [:li.nav-item
         [(if (= @about-us-section-current-tab :who-we-are) :a.nav-link.active :a.nav-link)
          {:href     "#"
