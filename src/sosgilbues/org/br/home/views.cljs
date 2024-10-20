@@ -6,7 +6,7 @@
 
 (defn who-we-are []
   [:div.container.d-flex.justify-content-center
-   [:div {:style {:width "600px" :height "150px"}}
+   [:div {:style {:width "100%" :height "50%"}}
     [:h2 "Quem somos"]
     [:p "Somos a primeira instituição civil sem fins lucrativos de serviço voluntário, voltada para controle da
        desertificação no Município de Gilbués, Estado do Piauí. Fundada no ano de 2001, por professores, estudantes,
@@ -14,7 +14,7 @@
 
 (defn what-we-do []
   [:div.container.d-flex.justify-content-center
-   [:div {:style {:width "600px" :height "150px"}}
+   [:div {:style {:width "1000%" :height "50%"}}
     [:h2 "O que fazemos"]
     [:p "Buscamos por meio da difusão do conhecimento de políticas de controle e convivência com processo acelerado
        de degradação ambiental que atinge o município de Gilbués e adjacências. Nosso trabalho é voltado para educação
@@ -23,7 +23,7 @@
 
 (defn what-we-defend []
   [:div.container.d-flex.justify-content-center
-   [:div {:style {:width "600px" :height "150px"}}
+   [:div {:style {:width "100%" :height "50%"}}
     [:h2 "O que defendemos"]
     [:ul
      [:li "Uso sustentável dos recursos hídricos"]
