@@ -61,24 +61,22 @@
 
    [:div.d-grid.gap-3.justify-content-center
     [:div.mx-auto [:h2 "Reportagens"]]
-    [:div.mx-auto
+    [:div {:style {:width "480px" :height "320px"}}
      [:iframe {:src             "https://www.youtube.com/embed/yvfo6zt9d_o?si=nILBaQDp2ZdGfhLy?rel=0"
                :title           "YouTube video player"
                :frameborder     "0"
                :allow           "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                :referrerpolicy  "strict-origin-when-cross-origin"
                :allowfullscreen true
-               :width           "560"
-               :height          "315"}]]
+               :style           {:width "100%" :height "100%"}}]]
 
-    [:div.mx-auto
+    [:div {:style {:width "480px" :height "320px"}}
      [:iframe {:src             "https://www.youtube.com/embed/C9JwxIyn0Vw?rel=0"
                :title           "Graças a um projeto do Governo Federal, agricultores cultivam alimentos em terras degradadas"
                :frameborder     "0"
                :allow           "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                :referrerpolicy  "strict-origin-when-cross-origin"
                :allowfullscreen true
-               :width           "560"
-               :height          "315"}]]]])
+               :style           {:width "100%" :height "100%"}}]]]])
 
 (defmethod routes/panels :home-panel [] [home-panel])
